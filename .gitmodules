@@ -6,3 +6,6 @@
 	path = xmake-repo
 	url = git@github.com:glcraft/xmake-repo.git
 	branch = mmg-test
+[submodule "make-my-glap"]
+	path = make-my-glap
+	url = git@github.com:glcraft/make-my-glap.git
