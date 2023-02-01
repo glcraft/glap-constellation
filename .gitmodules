@@ -1,0 +1,8 @@
+[submodule "glap"]
+	path = glap
+	url = git@github.com:glcraft/glap.git
+	branch = make-my-glap
+[submodule "xmake-repo"]
+	path = xmake-repo
+	url = git@github.com:glcraft/xmake-repo.git
+	branch = mmg-test
