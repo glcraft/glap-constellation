@@ -1,4 +1,4 @@
-add_repositories("xmake-repo ../xmake-repo")
+add_repositories("custom-xmake-repo ../xmake-repo")
 add_requires("mmg")
 
 target("test-mmg")
