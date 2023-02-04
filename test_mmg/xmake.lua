@@ -1,9 +1,11 @@
 add_repositories("custom-xmake-repo ../xmake-repo")
 add_requires("mmg")
+add_requires("glap")
 
 target("test-mmg")
     set_kind("binary")
     set_languages("cxx20")
     add_files("src/main.cpp")
     add_files("args.glap.yml")
+    add_packages("glap")
     add_rules("@mmg/mmg")
