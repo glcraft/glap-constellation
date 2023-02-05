@@ -1,3 +1,4 @@
+add_rules("mode.debug", "mode.release")
 add_repositories("custom-xmake-repo ../xmake-repo")
 add_requires("mmg")
 add_requires("glap")
