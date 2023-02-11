@@ -1,5 +1,6 @@
 add_rules("mode.debug", "mode.release")
-add_repositories("custom-xmake-repo ../xmake-repo")
+local xmake_repo = path.join(path.directory(os.scriptdir()), "xmake-repo")
+add_repositories("custom-xmake-repo " .. xmake_repo)
 add_requires("mmg")
 add_requires("glap")
 
